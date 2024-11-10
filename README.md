@@ -54,12 +54,13 @@ you can see code "weather_api.ipynb"
 3. **Status Check**: `response.status_code` verifies if the request was successful (200 indicates success).
 4. **Parsing JSON**: `response.json()` converts JSON data into a Python dictionary.
 5. **Extracting Data**: Specific weather information (temperature, humidity) is retrieved and printed.
-
+```
 
 ## Additional API Tips
 - **API Rate Limits**: APIs may limit requests per minute or day. Always check the provider's limits.
 - **Error Handling**: Check response codes to handle errors gracefully.
 - **Environment Variables**: Store sensitive data like API keys in environment variables instead of hardcoding them.
+
 
 
 # Conclusion
